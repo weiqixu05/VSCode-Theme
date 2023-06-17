@@ -1,0 +1,21 @@
+{
+  "name": "personal",
+  "displayName": "weiqi",
+  "description": "Weiqi's personal extension",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Weiqi's extension",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Weiqi's extension-color-theme.json"
+      }
+    ]
+  }
+}
